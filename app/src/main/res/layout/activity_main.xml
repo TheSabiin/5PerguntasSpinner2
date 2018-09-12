@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtPergunta1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qual desses é uma fruta" />
+
+    <Spinner
+        android:id="@+id/spPergunta1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/pergunta1" />
+
+    <TextView
+        android:id="@+id/txtPergunta2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qual desses é um objeto" />
+
+    <Spinner
+        android:id="@+id/spPergunta2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/pergunta2" />
+
+    <TextView
+        android:id="@+id/txtPergunta3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qual desses é um componente do computador" />
+
+    <Spinner
+        android:id="@+id/spnPergunta3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/pergunta3" />
+
+    <TextView
+        android:id="@+id/txtPergunta4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qual desses é um software" />
+
+    <Spinner
+        android:id="@+id/spnPergunta4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/pergunta4" />
+
+    <TextView
+        android:id="@+id/txtPergunta5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qual desses é uma marca de carro" />
+
+    <Spinner
+        android:id="@+id/spnPergunta5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/pergunta5" />
+
+    <Button
+        android:id="@+id/btnResponder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="responder"
+        android:text="Responder" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnRefazer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="recomecar"
+        android:text="Refazer Quiz" />
+</LinearLayout>

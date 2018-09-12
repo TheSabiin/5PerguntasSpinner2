@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">5PerguntasSpinner</string>
+    <string-array name="pergunta1">
+        <item>Bola</item>
+        <item>Celular</item>
+        <item>Maça</item>
+        <item>Dado</item>
+        <item>Controle</item>
+    </string-array>
+    <string-array name="pergunta2">
+        <item>Acontecer</item>
+        <item>Bom</item>
+        <item>Fazer</item>
+        <item>Como</item>
+        <item>Chave</item>
+    </string-array>
+    <string-array name="pergunta3">
+        <item>Disco Rigido</item>
+        <item>Internet Explorer</item>
+        <item>Roteador</item>
+        <item>Java</item>
+        <item>Fio</item>
+    </string-array>
+    <string-array name="pergunta4">
+        <item>CPU</item>
+        <item>Memória RAM</item>
+        <item>Fonte de Alimentação</item>
+        <item>NotePad++</item>
+        <item>Gabinete</item>
+    </string-array>
+    <string-array name="pergunta5">
+        <item>Asus</item>
+        <item>Nissan</item>
+        <item>Samsung</item>
+        <item>Coca-cola</item>
+        <item>Nintendo</item>
+    </string-array>
+</resources>
